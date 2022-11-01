@@ -1,0 +1,28 @@
+{
+  "name": "eslint-plugin-highlight-temporary-code",
+  "version": "1.0.0",
+  "description": "Searches for @temp comment and throws out a warning.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "warn about temporary code"
+  ],
+  "author": {
+    "name": "Akilan Sengottaiyan",
+    "email": "akilan0306@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akilansengottaiyan/eslint-plugin-temporary-code"
+  },
+  "main": "./lib/index.js",
+  "exports": "./lib/index.js",
+  "devDependencies": {
+    "eslint": "^8.19.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7"
+  },
+  "license": "ISC"
+}
